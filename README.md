@@ -25,3 +25,5 @@ on the blue LED on the board.
 In my case this redis key triggers a command on
 my somfy system to pull or push the blinds.
 
+# Video - See the timing
+[![Markisor Video](https://i.ytimg.com/vi/8Q8e2SZQTwA/hqdefault.jpg)](https://youtu.be/8Q8e2SZQTwA "Markisor Video")
