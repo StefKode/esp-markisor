@@ -18,14 +18,11 @@ If the connection to Wifi fails then it asks for
 the password on the serial console which is then
 stored in EEPROM.
 
-Then it toogles a given redis-key (see reddef.h for an example). The success is marked by turning
-on the blue LED on the board.
+Then it toogles a given redis-key (see reddef.h for an example). The success is marked by turning on the blue LED on the board.
 
-In my case this redis key triggers a command on
-my somfy system to pull or push the blinds.
+In my case this redis key triggers a command on my somfy system to pull or push the blinds.
 
 # Video
-Here you can see a cardboard prototype box. The ESP sticks out so you can see the LEDs. It takes only a few seconds before the ESP connects to the Wifi and toggles the redis key.
+Here you can see a cardboard prototype box. The ESP sticks out so you can see the LEDs. It takes only a few seconds before the ESP connects to the Wifi and triggers redis.
 
 [![Alt text](https://img.youtube.com/vi/8Q8e2SZQTwA/0.jpg)](https://www.youtube.com/watch?v=8Q8e2SZQTwA)
-
